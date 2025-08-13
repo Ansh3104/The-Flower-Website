@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Playwrite+IN:wght@100..400&display=swap');
 body{
     font-family: "Kalam", cursive;
+    background: #f0d492;
+background: linear-gradient(0deg, rgba(240, 212, 146, 1) 0%, rgba(132, 240, 204, 1) 100%);
+
 }
 .myimg{
     width: 100%;
@@ -8,4 +11,28 @@ body{
 }
 .center{
     text-align: center;
+}
+.d1{
+    text-align: justify;
+}
+#img{
+    border-radius: 5px;
+}
+.card{
+    background: #d2eeae;
+    background: radial-gradient(circle,rgba(210, 238, 174, 1) 0%, rgba(81, 107, 237, 1) 100%);
+    background-size: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.15);
+
+}
+.bt{
+    transition: transform 0.5s ease-in-out;
+}
+.bt:hover{
+    background-color: green;
+    color: mistyrose;
+    transition: 0.5s;
 }
